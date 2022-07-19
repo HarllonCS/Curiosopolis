@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    font: 1.1em 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+/* Cabeçalho */
+#cabecalho {
+    background-color: #dd4c4c;
+    color: #f7f7ad;
+    text-align: center;
+    padding-top: 1px;
+    text-transform: uppercase;
+}
+
+#cabecalho h1 {
+    font-size: 70px;
+}
+
+#menu-cabecalho {
+    font-size: 18px;
+}
+
+#menu-cabecalho ul {
+    padding-bottom: 20px;
+}
+
+#menu-cabecalho li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#menu-cabecalho a {
+    color: #f7f7ad;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu-cabecalho a:hover {
+    background-color: #f7f7ad;
+    color: #dd4c4c;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
