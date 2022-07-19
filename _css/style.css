@@ -5,7 +5,6 @@ body {
 
 #container {
     font: 1.1em 'Trebuchet MS', sans-serif;
-    margin: 0px;
 }
 
 /* Cabeçalho */
@@ -19,6 +18,7 @@ body {
 
 #cabecalho h1 {
     font-size: 70px;
+    margin-top: 5px;
 }
 
 #menu-cabecalho {
@@ -26,18 +26,18 @@ body {
 }
 
 #menu-cabecalho ul {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 #menu-cabecalho li {
     display: inline;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 #menu-cabecalho a {
     color: #f7f7ad;
-    padding: 8px;
+    padding: 8.5px;
     text-decoration: none;
     font-weight: bold;
 }
