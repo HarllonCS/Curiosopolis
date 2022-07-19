@@ -1,7 +1,8 @@
 body {
+    background-color: #f3f3dd;
     margin: 0px;
     padding: 0px;
-    background-color: #f3f3dd;
+    
 }
 
 #container {
@@ -59,37 +60,73 @@ a {
     text-decoration-thickness: 2px;
 }
 
-/* Conteúdos */
+/* conteúdos */
+
+/* largura total da caixa dos conteúdos: 1200px */
 
 #conteudos {
     margin: auto;
-    width: 1230px;
+    width: 1200px;
+    margin-top: 30px;
 }
 
+/* conteúdo principal (geral) */
+
+/* largura total = 815px */
+
+/* Espaçamento entre o conteúdo principal e lateral = 60px */
+
 #cont-principal {
-    width: 815px;
+    padding: 20px;
+    background-color: white;
+    width: 795px;
+    margin-bottom: 30px;
+    text-align: justify;
+    box-shadow: 12px 10px 6px rgba(0, 0, 0, 0.295);
+    border: 1px solid black;
     float: left;
+}
+
+#cont-principal img {
+    border: 1px solid black;
+}
+
+#cont-principal a {
+    color: #b34040;
+    font-size: 14px;
+}
+
+#cont-principal a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.8px;
 }
 
 /* conteúdo principal esquerdo */
 
-.cont-principal-1 {
-    width: 400px;
+.cont-principal-esq {
+    width: 380px;
     float: left;
+    margin-bottom: 25px;
 }
 
 /* conteúdo principal direito */
 
-.cont-principal-2 {
-    width: 400px;
+.cont-principal-dir {
+    width: 380px;
     float: right;
+    margin-bottom: 25px;
 }
 
 /* conteúdo lateral */
 
+/* largura total = 325px */
+
+/* Espaçamento entre o conteúdo principal e lateral = 60px */
+
 #cont-lateral {
-    background-color: blue;
+    padding: 20px;
+    background-color: white;
     height: 200px;
-    width: 400px;
+    width: 305px;
     float: right;
 }
