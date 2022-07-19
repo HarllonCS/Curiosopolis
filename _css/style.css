@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: #f3f3dd;
 }
 
 #container {
@@ -12,23 +13,8 @@ a {
     font-weight: bold;
 }
 
-section#cont-principal {
-    margin: auto;
-    width: 1600px;
-}
-
-article#cont-1 {
-    background-color: green;
-    float: left;
-    width: 800px;
-}
-article#cont-2 {
-    background-color: red;
-    float: right;
-    width: 800px;
-}
-
 /* Cabeçalho */
+
 #cabecalho {
     background-color: #dd4c4c;
     color: #f7f7ad;
@@ -73,4 +59,37 @@ article#cont-2 {
     text-decoration-thickness: 2px;
 }
 
+/* Conteúdos */
 
+#conteudos {
+    margin: auto;
+    width: 1230px;
+}
+
+#cont-principal {
+    width: 815px;
+    float: left;
+}
+
+/* conteúdo principal esquerdo */
+
+.cont-principal-1 {
+    width: 400px;
+    float: left;
+}
+
+/* conteúdo principal direito */
+
+.cont-principal-2 {
+    width: 400px;
+    float: right;
+}
+
+/* conteúdo lateral */
+
+#cont-lateral {
+    background-color: blue;
+    height: 200px;
+    width: 400px;
+    float: right;
+}
