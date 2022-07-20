@@ -1,8 +1,5 @@
 body {
     background-color: #f3f3dd;
-    margin: 0px;
-    padding: 0px;
-    
 }
 
 #container {
@@ -68,6 +65,9 @@ a {
     margin: auto;
     width: 1200px;
     margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0px 12px 15px 5px rgba(0, 0, 0, 0.432)
 }
 
 /* conteúdo principal (geral) */
@@ -78,12 +78,8 @@ a {
 
 #cont-principal {
     padding: 20px;
-    background-color: white;
     width: 795px;
-    margin-bottom: 30px;
     text-align: justify;
-    box-shadow: 12px 10px 6px rgba(0, 0, 0, 0.295);
-    border: 1px solid black;
     float: left;
 }
 
@@ -104,17 +100,20 @@ a {
 /* conteúdo principal esquerdo */
 
 .cont-principal-esq {
-    width: 380px;
     float: left;
-    margin-bottom: 25px;
 }
 
 /* conteúdo principal direito */
 
 .cont-principal-dir {
-    width: 380px;
     float: right;
-    margin-bottom: 25px;
+}
+
+/* Ambos */
+
+.cont-principal-esq, .cont-principal-dir {
+    width: 380px;
+    margin-bottom: 25px
 }
 
 /* conteúdo lateral */
@@ -125,8 +124,7 @@ a {
 
 #cont-lateral {
     padding: 20px;
-    background-color: white;
-    height: 200px;
     width: 305px;
     float: right;
 }
+
