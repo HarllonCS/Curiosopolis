@@ -4,7 +4,28 @@ body {
 }
 
 #container {
-    font: 1.1em 'Trebuchet MS', sans-serif;
+    font: 1.1em Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section#cont-principal {
+    margin: auto;
+    width: 1600px;
+}
+
+article#cont-1 {
+    background-color: green;
+    float: left;
+    width: 800px;
+}
+article#cont-2 {
+    background-color: red;
+    float: right;
+    width: 800px;
 }
 
 /* Cabeçalho */
@@ -23,23 +44,19 @@ body {
 
 #menu-cabecalho {
     font-size: 18px;
-}
-
-#menu-cabecalho ul {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 #menu-cabecalho li {
     display: inline;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #menu-cabecalho a {
     color: #f7f7ad;
-    padding: 8.5px;
-    text-decoration: none;
-    font-weight: bold;
+    padding: 7px 9px 10px 9px;
+    border-radius: 3px;
 }
 
 #menu-cabecalho a:hover {
@@ -48,3 +65,12 @@ body {
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
+
+#menu-cabecalho a.atual {
+    background-color: #f7f7ad;
+    color: #dd4c4c;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+
