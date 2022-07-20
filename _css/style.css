@@ -83,6 +83,20 @@ a {
     float: left;
 }
 
+#cont-principal-titulo {
+    background-color: #dd4c4c;
+    color: #f7f7ad;
+    border-radius: 8px;
+    width: 350px;
+    margin: auto;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+#cont-principal-titulo h2 {
+    text-align: center;
+}
+
 #cont-principal img {
     border: 1px solid black;
 }
