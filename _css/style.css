@@ -134,7 +134,7 @@ a {
     margin-bottom: 25px;
 }
 
-#cont-principal img {
+img {
     border: 1px solid #c4c4c4;
     width: 100%;
 }
@@ -161,9 +161,7 @@ a {
     margin-bottom: 25px;
 }
 
-#cont-lateral img {
-    width: 100%;
-}
+/* Classe para modificar os articles */
 
 .cont-lat-curiosidades {
     margin-bottom: 30px;
@@ -174,6 +172,8 @@ a {
     text-align: justify;
 }
 
+/* Estilizar links da lateral */
+
 .cont-lat-curiosidades a {
     color: black;
     font-weight: normal;
@@ -181,9 +181,29 @@ a {
 
 .cont-lat-curiosidades a:hover {
     color: #b34040;
-    text-decoration: underline;
 }
 
 .cont-lat-div {
     border-bottom: 2px solid #d3d3d3;
+    padding-bottom: 25px;
 }
+
+#cont-lat-menu {
+    margin: 50px auto 0 auto;
+}
+
+#cont-lat-menu li {
+    margin-bottom: 8%;
+    font-size: 13px;
+}
+
+#cont-lat-menu a {
+    color: #b34040;
+    text-transform: uppercase;
+}
+
+#cont-lat-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
