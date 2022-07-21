@@ -1,5 +1,5 @@
 body {
-    background-color: #f3f3dd;
+    background: #f3f3dd url(../_imgs/background.jpg);
 }
 
 #container {
@@ -15,6 +15,7 @@ a {
 
 #cabecalho {
     background-color: #dd4c4c;
+    box-shadow: 0px 8px 10px 5px #00000054;
     text-align: center;
     padding-top: 1px;
     text-transform: uppercase;
@@ -40,7 +41,7 @@ a {
     color: #f7f7ad;
     padding: 7px 9px 8px 9px;
     border-radius: 3px;
-    transition: background-color, color, .3s;
+    transition: background-color .3s;
 }
 
 #menu-cabecalho a:hover {
@@ -68,16 +69,14 @@ a {
 
 /* conteúdo principal (geral) */
 
-/* Espaçamento entre os conteúdos principais e lateral = 94px */
-
-/* largura total = 1070px */
+/* largura total = 1225px */
 
 #cont-principal {
     padding: 0px 40px 0px 20px;
-    width: 66.28%; /* 1050px */
+    width: 73.54%; /* 1165px --> 73.54% */
     min-width: 380px;
     text-align: justify;
-    border-right: 2px solid rgb(211, 211, 211);
+    border-right: 2px solid #d3d3d3;
     float: left;
 }
 
@@ -89,7 +88,7 @@ a {
     border-radius: 8px;
 }
 
-.conteudos-titulo h1 {
+.conteudos-titulo h2 {
     text-align: center;
     text-transform: uppercase;
 }
@@ -101,7 +100,7 @@ a {
     margin: 35px auto;
 }
 
-#cont-princ-titulo h1 {
+#cont-princ-titulo h2 {
     font-size: 28px;
     padding: 5px 0px 7px 0px;
 }
@@ -130,35 +129,61 @@ a {
 /* Ambos */
 
 .cont-principal-esq, .cont-principal-dir {
-    width: 47.61%; /* 500px */
+    width: 44.84%; /* 522.5px --> 44.84% */
     min-width: 350px;
     margin-bottom: 25px;
 }
 
 #cont-principal img {
-    border: 1px solid rgb(196, 196, 196);
+    border: 1px solid #c4c4c4;
     width: 100%;
 }
 
 /* conteúdo lateral */
 
-/* Espaçamento entre os conteúdos principais e lateral = 94px */
-
-/* largura total = 420px */
+/* largura total = 320px */
 
 #cont-lateral {
     padding: 20px;
-    width: 25.25%; /* 400 */
-    border: 1px solid blue;
+    width: 19%; /* 300px --> 25.75% --> ? 19% ? */
     float: right;
 }
 
 #cont-lateral-titulo {
-    width: 280px;
+    width: 310px;
     margin: 0 auto;
 }
 
-#cont-lateral-titulo h1 {
+#cont-lat-titulo h2 {
     font-size: 22px;
-    padding: 2px 0px 4px 0px;
+    padding: 2px 0px 3px 0px;
+    margin-top: -8px;
+    margin-bottom: 25px;
+}
+
+#cont-lateral img {
+    width: 100%;
+}
+
+.cont-lat-curiosidades {
+    margin-bottom: 30px;
+}
+
+.cont-lat-curiosidades p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.cont-lat-curiosidades a {
+    color: black;
+    font-weight: normal;
+}
+
+.cont-lat-curiosidades a:hover {
+    color: #b34040;
+    text-decoration: underline;
+}
+
+.cont-lat-div {
+    border-bottom: 2px solid #d3d3d3;
 }
