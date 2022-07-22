@@ -66,11 +66,11 @@ a {
 /* largura total da caixa dos conteúdos: 1584px */
 
 .conteudos {
-    width: 85%; /* 1584px */
+    width: 85%; /* 1584px --> 85% */
     margin: 0 auto;
     background-color: white;
-    box-shadow: 0px 8px 15px 5px rgba(0, 0, 0, 0.432);
-    border: 1px solid rgb(211, 211, 211);
+    box-shadow: 0px 8px 15px 5px #0000006e;
+    border: 1px solid #d3d3d3;
 }
 
 /* conteúdo principal (geral) */
@@ -136,6 +136,7 @@ a {
 
 .cont-principal-esq, .cont-principal-dir {
     width: 48%; /* 522.5px --> 44.84% >> 48% */
+    min-width: 280px;
     margin-bottom: 25px;
 }
 
@@ -254,7 +255,7 @@ a {
     background-color: #f02424;
     width: 280px;
     margin: 30px auto 0 auto;
-    border: 1px solid rgb(126, 126, 126);
+    border: 1px solid #7e7e7e;
     text-align: center;
     padding-bottom: 10px;
     text-transform: uppercase;
@@ -272,10 +273,10 @@ a {
 }
 
 #conteudos-caixa {
-    border: 1px solid rgb(194, 194, 194);
+    border: 1px solid #c2c2c2;
     width: 400px;
     margin: 30px auto;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.199);
+    box-shadow: 0px 10px 20px #00000033;
     border-radius: 10px;
 }
 
