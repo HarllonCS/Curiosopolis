@@ -16,11 +16,12 @@ a {
     font-weight: bold;
 }
 
+/* Página "index.html" */
+
 /* Cabeçalho */
 
 #cabecalho {
     background-color: #dd4c4c;
-    box-shadow: 0px 8px 10px 5px #00000054;
     text-align: center;
     padding-top: 1px;
     margin-bottom: 50px;
@@ -215,18 +216,19 @@ a {
 
 #cont-rodape p {
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
+    text-transform: uppercase;
 }
 
-/* página "sobre.html" */
+/* Página "sobre.html" */
 
 /* Título da página */
 
-#cont-titulo {
+#sobre-titulo {
     width: 350px;
 }
 
-#cont-titulo h2 {
+#dobre-titulo h2 {
     font-size: 28px;
     padding: 4px 0px 6px 0px;
 }
@@ -235,4 +237,58 @@ a {
     padding: 0px 40px 0px 40px;
     text-align: justify;
     text-indent: 15px;
+}
+
+/* Página "contatos.html" */
+
+#contatos-titulo {
+    width: 160px;
+}
+
+#contatos-titulo h2 {
+    font-size: 28px;
+    padding: 2px 0px 4px 0px;
+}
+
+#contatos-aviso {
+    background-color: #f02424;
+    width: 280px;
+    margin: 30px auto 0 auto;
+    border: 1px solid rgb(126, 126, 126);
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#contatos-aviso h3 {
+    color: #f0f072;
+    font-size: 22px;
+}
+
+#contatos-aviso p {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#conteudos-caixa {
+    border: 1px solid rgb(194, 194, 194);
+    width: 400px;
+    margin: 30px auto;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.199);
+    border-radius: 10px;
+}
+
+#contatos-dados {
+    width: 350px;
+    margin: 0 auto;
+}
+
+#contatos-dados .dados {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#contatos-dados p {
+    font-size: 25px;
 }
