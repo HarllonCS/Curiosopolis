@@ -136,7 +136,7 @@ a {
 
 .cont-principal-esq, .cont-principal-dir {
     width: 48%; /* 522.5px --> 44.84% >> 48% */
-    min-width: 260px;
+    min-width: 230px;
     margin-bottom: 25px;
 }
 
