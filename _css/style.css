@@ -64,9 +64,8 @@ a {
 
 /* largura total da caixa dos conteúdos: 1584px */
 
-#conteudos {
+.conteudos {
     width: 85%; /* 1584px */
-    min-width: 420px;
     margin: 0 auto;
     background-color: white;
     box-shadow: 0px 8px 15px 5px rgba(0, 0, 0, 0.432);
@@ -80,7 +79,6 @@ a {
 #cont-principal {
     padding: 0px 40px 0px 20px;
     width: 73.54%; /* 1165px --> 73.54% */
-    min-width: 380px;
     text-align: justify;
     border-right: 2px solid #d3d3d3;
     float: left;
@@ -92,6 +90,7 @@ a {
     background-color: #dd4c4c;
     color: #f7f7ad;
     border-radius: 8px;
+    margin: auto;
 }
 
 .conteudos-titulo h2 {
@@ -103,7 +102,7 @@ a {
 
 #cont-princ-titulo {
     width: 350px;
-    margin: 35px auto;
+    margin-top: 35px;
 }
 
 #cont-princ-titulo h2 {
@@ -136,7 +135,6 @@ a {
 
 .cont-principal-esq, .cont-principal-dir {
     width: 48%; /* 522.5px --> 44.84% >> 48% */
-    min-width: 350px;
     margin-bottom: 25px;
 }
 
@@ -152,7 +150,6 @@ a {
 
 #cont-lateral-titulo {
     width: 310px;
-    margin: 0 auto;
 }
 
 #cont-lat-titulo h2 {
@@ -219,4 +216,23 @@ a {
 #cont-rodape p {
     text-align: center;
     font-size: 25px;
+}
+
+/* página "sobre.html" */
+
+/* Título da página */
+
+#cont-titulo {
+    width: 350px;
+}
+
+#cont-titulo h2 {
+    font-size: 28px;
+    padding: 4px 0px 6px 0px;
+}
+
+#cont-sobre p {
+    padding: 0px 40px 0px 40px;
+    text-align: justify;
+    text-indent: 15px;
 }
